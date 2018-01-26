@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0B981ACC-4E14-D4F7-900E-E391D4CCCD4F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GGJ2018",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
