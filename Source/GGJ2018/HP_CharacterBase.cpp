@@ -127,11 +127,9 @@ void AHP_CharacterBase::OnTaser()
 {
 	if (SelectedMode < 3)
 	{
-		if (TalkingNPC)
-		{
-			//continue convo
-			ContinueConversation();
-		}
+		//continue convo
+		ContinueConversation();
+
 	}
 	else
 	{
