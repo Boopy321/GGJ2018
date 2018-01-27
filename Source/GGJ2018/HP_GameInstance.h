@@ -17,8 +17,14 @@ public:
 		: Dialogue()
 	{}
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = LevelUp)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Dialogue)
 		FText Dialogue;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PosResponse)
+		FText Positive;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NegResponse)
+		FText Negative;
 };
 
 /**
